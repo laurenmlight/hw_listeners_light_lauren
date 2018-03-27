@@ -1,24 +1,28 @@
 body {
 	font-family: 'Lato', sans-serif;
+	text-align: center;
 }
 
 h1 {
-	text-align: center;
 	background-color: pink;
-	padding: 5%;
+	padding: 3%;
 	margin-top: 0;
 	color: white;
 	letter-spacing: .3rem;
 }
 
 h2 {
-	text-align: center;
 	font-size: 3rem;
 	color: #142642;
+	margin-bottom: 1%;
+}
+
+h3 {
+	padding-bottom: 3%;
 }
 
 img {
-	width: 350px;
+	width: 300px;
 	opacity: .95;
 	margin: auto;
 	display: block;
@@ -26,8 +30,7 @@ img {
 
 #henspeech {
 	background-color: pink;
-	width: 50%;
-	text-align: center;
+	width: 300px;
 	margin: auto;
 	font-size: 2rem;
 	border-radius: 5px;
