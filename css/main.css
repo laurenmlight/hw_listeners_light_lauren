@@ -6,3 +6,8 @@ body {
 	margin: auto;
 	text-align: center;
 }
+
+.container label{
+	display: block;
+	padding: 1%;
+}
