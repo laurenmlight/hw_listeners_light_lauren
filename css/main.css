@@ -1,5 +1,7 @@
 body {
 	background-color: #d1cce2;
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 1.5rem;
 }
 
 .container {
@@ -22,14 +24,21 @@ form {
 	text-align: left;
 }
 
+input, textarea, #submit {
+	font-family: 'IBM Plex Serif', serif;
+	color: #58828e;
+	font-size: 1.5rem;
+}
+
+
 input, textarea {
 	width: 70%;
 	background-color: #d2eff7;
 	border-radius: 2px;
+	border: none;
 }
 
 #submit {
 	width: 100px;
 	padding: 2%;
-	color: #58828e;
 }
