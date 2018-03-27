@@ -7,7 +7,29 @@ body {
 	text-align: center;
 }
 
+form {
+	width: 40%;
+	margin: auto;
+	background-color: #58828e;
+	padding: 5%;
+	border-radius: 30px;
+	color: #d2eff7;
+}
+
 .container label{
 	display: block;
-	padding: 1%;
+	padding: 10% 5% 2% 5%;
+	text-align: left;
+}
+
+input, textarea {
+	width: 70%;
+	background-color: #d2eff7;
+	border-radius: 2px;
+}
+
+#submit {
+	width: 100px;
+	padding: 2%;
+	color: #58828e;
 }
