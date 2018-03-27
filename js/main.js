@@ -4,6 +4,21 @@ document.getElementById("clickMe").addEventListener("click", function(){
     document.getElementById("paragraph").innerHTML = "This is click number: " + event.detail;
 });
 
+document.getElementById("form").addEventListener("submit", function(){
+		event.preventDefault();
+		console.log(firstname.value);
+		console.log(lastname.value);
+		console.log(email.value);
+		console.log(message.value);
+});
+
+
+
+
+
+
+
+
 /*
 var heading = document.getElementById( 'clickMe' );
 
