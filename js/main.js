@@ -1,9 +1,3 @@
-
-
-document.getElementById("clickMe").addEventListener("click", function(){
-    document.getElementById("paragraph").innerHTML = "This is click number: " + event.detail;
-});
-
 document.getElementById("form").addEventListener("submit", function(){
 		event.preventDefault();
 		console.log(firstname.value);
