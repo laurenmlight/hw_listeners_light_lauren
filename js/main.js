@@ -1,9 +1,11 @@
 document.getElementById("cat").addEventListener("mouseover", function(){
-    document.getElementById("meow").innerHTML = "Meow";
-		document.getElementById("comeBack").innerHTML = "";
+    document.getElementById("henspeech").innerHTML = "Meow";
 });
 
 document.getElementById("cat").addEventListener("mouseout", function(){
-    document.getElementById("meow").innerHTML = "";
-		document.getElementById("comeBack").innerHTML = "Come back";
+		document.getElementById("henspeech").innerHTML = "Come back";
+});
+
+document.addEventListener("keydown", function() {
+	document.getElementById("henspeech").innerHTML = "Yum!";
 });
