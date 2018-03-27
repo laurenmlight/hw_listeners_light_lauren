@@ -1,4 +1,15 @@
 img {
-	width: 300px;
+	width: 350px;
 	opacity: .95;
+	margin: auto;
+	display: block;
+}
+
+#meow, #comeBack {
+	background-color: pink;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-size: 2rem;
+	border-radius: 5px;
 }
