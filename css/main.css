@@ -1,3 +1,22 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	background-color: pink;
+	padding: 5%;
+	margin-top: 0;
+	color: white;
+	letter-spacing: .3rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3rem;
+	color: #142642;
+}
+
 img {
 	width: 350px;
 	opacity: .95;
@@ -12,4 +31,5 @@ img {
 	margin: auto;
 	font-size: 2rem;
 	border-radius: 5px;
+	color: #142642;
 }
